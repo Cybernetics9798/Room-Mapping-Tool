@@ -1,0 +1,76 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.39.0.0
+Copyright (C) 2023 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Yaohui Cai, McMaster University COMPENG 2DX3, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.39.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.21
+Assembler:       Armasm.exe V6.21
+Linker/Locator:  ArmLink.exe V6.21
+Library Manager: ArmAr.exe V6.21
+Hex Converter:   FromElf.exe V6.21
+CPU DLL:         SARMCM3.DLL V5.39.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      CMSIS_AGDI.dll V1.33.16.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+C:\Users\Y9650\Documents\uVision\2DX3_Project\Final_Project.uvprojx
+Project File Date:  04/01/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.21', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+compiling PLL.c...
+compiling SysTick.c...
+compiling I2C_Init.c...
+compiling uart.c...
+compiling vl53l1_platform_2dx4.c...
+compiling VL53L1X_api.c...
+compiling onboardLEDs.c...
+compiling spin.c...
+assembling startup_msp432e401y_uvision.s...
+compiling Project.c...
+compiling system_msp432e401y.c...
+linking...
+Program Size: Code=19844 RO-data=1676 RW-data=8 ZI-data=3280  
+".\Objects\Final_Project.axf" - 0 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM::CMSIS@5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: TexasInstruments
+                http://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/msp432cmsis/latest/exports/TexasInstruments.MSP432E4_DFP.3.2.6.pack
+                TexasInstruments::MSP432E4_DFP@3.2.6
+                Device Family Pack for Texas Instruments SimpleLink(TM) MSP432E4 Series
+   * Component: Startup Version: 3.2.3
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_Target_1
+  C:/Users/Y9650/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  C:/Users/Y9650/AppData/Local/Arm/Packs/TexasInstruments/MSP432E4_DFP/3.2.6/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@5.6.0
+
+   * Component: TexasInstruments::Device:Startup@3.2.3
+      Source file:   Examples/EmptyMain/main.c
+      Source file:   Device/Source/system_msp432e401y.c
+      Source file:   Examples/BlinkLED/blinkLED.c
+      Source file:   Device/Source/startup_msp432e401y_uvision.s
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
